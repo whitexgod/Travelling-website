@@ -27,7 +27,27 @@ html {
   width: 8%;
   margin: 20px auto;
 }
-
+.button-effect{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #2196f3;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 60px;
+  overflow: hidden;
+  transition: 0.2s;
+   margin-top:2%;
+   letter-spacing:8px;
+   font-weight:bold;
+}
+.button-effect:hover{
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 0s;
+}
 
 .page-banner
 {
@@ -37,6 +57,7 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+  display: flex;
 }
 .page-banner-text
 {
@@ -48,6 +69,7 @@ html {
   font-style: italic;
   color: #f21856;
   font-family: 'Alex Brush';
+  display: flex;
 }
 .page-banner-text-h1
 {
@@ -178,7 +200,7 @@ html {
     background-image: url('https://i.redd.it/1w5mfm9e6k151.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 50% 50%;
+    background-size: 100% 100%;
   }
   .page-banner-text
   {
@@ -319,7 +341,7 @@ html {
     background-image: url('https://i.redd.it/1w5mfm9e6k151.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 50% 50%;
+    background-size: 100% 100%;
   }
   .page-banner-text
   {
