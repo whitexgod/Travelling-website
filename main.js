@@ -1,3 +1,8 @@
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+
+
 window.sr = ScrollReveal();
 
 sr.reveal('.animate-left', {

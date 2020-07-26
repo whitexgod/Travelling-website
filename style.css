@@ -8,7 +8,7 @@ width:100%;
 height:100vh;
 background: #fff
 url('Infinity.gif') no-repeat center;
-z-index:99999;
+z-index:999999;
 }
 body{
   background: #d9a7c7;  /* fallback for old browsers */
@@ -47,6 +47,23 @@ html {
   box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
   transition-delay: 0s;
 }
+.carousel-cell
+{
+  width: 66%;
+  }
+
+  /* cell number */
+.carousel-cell:before {
+    display: block;
+  }
+
+
+.logo-img{
+  width:60px;
+  height: 60px;
+}
+
+
 
 .page-banner
 {
@@ -58,13 +75,15 @@ html {
   background-size: 100% 100%;
   display: flex;
 }
+
+
 .page-banner-text
 {
 
   text-align: center;
   font-weight: bold;
   margin: auto;
-  padding: 10%;
+  padding: 20%;
   font-style: italic;
   color: #f21856;
   font-family: 'Alex Brush';
@@ -73,6 +92,7 @@ html {
 .page-banner-text-h1
 {
   font-size:150px;
+  font-family: 'Great Vibes', sans-serif;
 }
 
 
@@ -158,12 +178,13 @@ html {
   width: 500px;
   height: 400px;
   margin: 3%;
+  border-radius: 20%;
 }
 .package-p{
   text-align: justify;
   font-size: 40px;
   margin: 10px;
-  font-family: 'Great Vibes', sans-serif;
+  font-family: 'Averia Serif Libre', sans-serif;
 }
 .package-h3{
   font-family: 'Knewave',sans-serif;
@@ -301,7 +322,7 @@ html {
     text-align: justify;
     font-size: 20px;
     margin: 10px;
-    font-family: 'Great Vibes', sans-serif;
+    font-family: 'Averia Serif Libre', sans-serif;
   }
   .package-h3{
     font-family: 'Knewave',sans-serif;
@@ -442,7 +463,7 @@ html {
     text-align: justify;
     font-size: 25px;
     margin: 10px;
-    font-family: 'Great Vibes', sans-serif;
+    font-family: 'Averia Serif Libre', sans-serif;
   }
   .package-h3{
     font-family: 'Knewave',sans-serif;
