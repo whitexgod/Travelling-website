@@ -110,8 +110,9 @@ html {
 .upcoming-plans-images{
   width:700px;
   height:650px;
-  padding : 5px;
   margin: auto;
+  align-items: center;
+  text-align: center;
 }
 .upcoming-plans-p{
   margin: 5%;
