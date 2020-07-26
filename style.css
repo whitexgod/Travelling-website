@@ -252,10 +252,12 @@ html {
     text-shadow: 2px 2px 4px #000000;
   }
   .upcoming-plans-images{
-    width:300px;
-    height:250px;
-    padding : 10px;
-    margin: 20px;
+    width:200px;
+    height:300px;
+    padding: 5px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
   }
   .upcoming-plans-p{
     margin: auto;
@@ -393,10 +395,12 @@ html {
     text-shadow: 2px 2px 4px #000000;
   }
   .upcoming-plans-images{
-    width:350px;
-    height:300px;
-    padding : 10px;
-    margin: 20px;
+    width:200px;
+    height:350px;
+    padding: 5px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
   }
   .upcoming-plans-p{
     margin: auto;
