@@ -56,7 +56,9 @@ html {
 .carousel-cell:before {
     display: block;
   }
-
+.contact-card{
+  color: white;
+}
 
 .logo-img{
   width:60px;
@@ -206,6 +208,9 @@ html {
   text-decoration: underline;
   color: white;
   text-shadow: 2px 2px 4px #000000;
+  border-style: double;
+  border-color: coral;
+
 }
 .contact-info{
   margin: auto;
