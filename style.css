@@ -10,6 +10,9 @@ background: #fff
 url('Infinity.gif') no-repeat center;
 z-index:999999;
 }
+.navbar{
+  background-color: #5D4954;
+}
 body{
   background: #d9a7c7;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
@@ -356,6 +359,9 @@ html {
     margin: auto;
   }
 
+  #footer{
+    font-size: 10px;
+  }
 }
 
 
@@ -499,4 +505,7 @@ html {
     margin: auto;
   }
 
+  #footer{
+    font-size: 10px;
+  }
 }
