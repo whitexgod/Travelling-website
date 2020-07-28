@@ -34,7 +34,7 @@ nav{
 .nav-links{
   display: flex;
   justify-content: space-around;
-  width: 40%;
+  width: 50%;
 }
 .nav-links li:hover{
   border-style: solid;
@@ -69,16 +69,19 @@ nav{
   margin: 5px;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1400px){
   .nav-links{
     width: 60%;
   }
-  .logo{
-    font-size: 15px;
+}
+
+@media screen and (max-width:1024px){
+  .nav-links{
+    width: 80%;
   }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:800px){
   body{
     overflow-x: hidden;
   }
@@ -88,8 +91,8 @@ nav{
   .nav-links{
     position: absolute;
     right: 0px;
-    height: 35vh;
-    top: 8vh;
+    height: 50vh;
+    top: 10vh;
     background-color: #5D4954;
     opacity: 1;
     display: flex;
